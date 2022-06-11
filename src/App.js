@@ -9,7 +9,9 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Clock />
+          <Clock timeZone="America/Los_Angeles" />
+          <Clock timeZone="Europe/London" />
+          <Clock timeZone="Asia/Singapore" />
         </header>
       </div>
     );
